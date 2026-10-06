@@ -1,0 +1,2 @@
+model,problem type,experiment,stock,accuracy,precision,recall,f1,mean absolute error,root mean square error,r2,directional accuracy
+LogisticRegression,classification,alice,MSFT,0.5020080321285141,0.5345911949685535,0.6296296296296297,0.5782312925170068,,,,

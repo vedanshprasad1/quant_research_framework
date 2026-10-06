@@ -1,0 +1,5 @@
+model,problem type,experiment,stock,strategy,profit,final capital,trades,sharpe ratio,maximum drawdown
+LogisticRegression,classification,alice,MSFT,Simple Buying,33.662105633302644,533.6621056333026,159.0,0.37608192644393973,-0.14795866959044593
+LogisticRegression,classification,alice,MSFT,Buy and Hold,81.9527404598249,581.9527404598249,,0.7064960191210091,-0.2055659699841691
+LogisticRegression,classification,alice,MSFT,Random Buying,0.36409520826418884,500.3640952082642,137.0,0.03831718834667194,-0.16397119501181437
+LogisticRegression,classification,alice,MSFT,Confidence Buying,81.9527404598249,581.9527404598249,249.0,0.7064960191210091,-0.2055659699841691

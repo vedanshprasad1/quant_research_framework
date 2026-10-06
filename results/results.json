@@ -1,0 +1,197 @@
+[
+    {
+        "model": "LogisticRegression",
+        "problem type": "classification",
+        "experiment": "microsoft test",
+        "stock": "MSFT",
+        "accuracy": 0.4963855421686747,
+        "precision": 0.5145985401459854,
+        "recall": 0.6497695852534562,
+        "f1": 0.5743380855397149,
+        "backtest_results": {
+            "Simple Buying": {
+                "profit": 27.547584252437346,
+                "final_capital": 127.54758425243735,
+                "number_of_trades": 274,
+                "sharpe_ratio": 0.6663208281301005,
+                "maximum_drawdown": -0.2808366961245722
+            },
+            "Buy and Hold": {
+                "profit": 22.86164996052392,
+                "final_capital": 122.86164996052392,
+                "sharpe_ratio": 0.5393944098414012,
+                "maximum_drawdown": -0.3449839756815895
+            },
+            "Random Buying": {
+                "profit": 2.8745944743301095,
+                "final_capital": 102.87459447433011,
+                "number_of_trades": 197,
+                "sharpe_ratio": 0.22198263926751946,
+                "maximum_drawdown": -0.28504000685750536
+            },
+            "Confidence Buying": {
+                "profit": 0,
+                "final_capital": 100,
+                "number_of_trades": 0,
+                "sharpe_ratio": 0,
+                "maximum_drawdown": 0.0
+            }
+        }
+    },
+    {
+        "model": "RandomForestClassifier",
+        "problem type": "classification",
+        "experiment": "microsoft test",
+        "stock": "MSFT",
+        "accuracy": 0.5156626506024097,
+        "precision": 0.5338983050847458,
+        "recall": 0.5806451612903226,
+        "f1": 0.5562913907284768,
+        "backtest_results": {
+            "Simple Buying": {
+                "profit": 27.386915694690458,
+                "final_capital": 127.38691569469046,
+                "number_of_trades": 236,
+                "sharpe_ratio": 0.7475300680484375,
+                "maximum_drawdown": -0.2915483969743115
+            },
+            "Buy and Hold": {
+                "profit": 22.86164996052392,
+                "final_capital": 122.86164996052392,
+                "sharpe_ratio": 0.5393944098414012,
+                "maximum_drawdown": -0.3449839756815895
+            },
+            "Random Buying": {
+                "profit": 23.79250503108669,
+                "final_capital": 123.79250503108669,
+                "number_of_trades": 208,
+                "sharpe_ratio": 0.9096654270993831,
+                "maximum_drawdown": -0.273975407415389
+            },
+            "Confidence Buying": {
+                "profit": -9.570954968374025,
+                "final_capital": 90.42904503162598,
+                "number_of_trades": 78,
+                "sharpe_ratio": -0.4232651529402357,
+                "maximum_drawdown": -0.21742578054902784
+            }
+        }
+    },
+    {
+        "model": "GradientBoostingClassifier",
+        "problem type": "classification",
+        "experiment": "microsoft test",
+        "stock": "MSFT",
+        "accuracy": 0.5228915662650603,
+        "precision": 0.5384615384615384,
+        "recall": 0.6129032258064516,
+        "f1": 0.5732758620689655,
+        "backtest_results": {
+            "Simple Buying": {
+                "profit": 29.656692044963933,
+                "final_capital": 129.65669204496393,
+                "number_of_trades": 247,
+                "sharpe_ratio": 0.8116219104166397,
+                "maximum_drawdown": -0.24372024874621084
+            },
+            "Buy and Hold": {
+                "profit": 22.86164996052392,
+                "final_capital": 122.86164996052392,
+                "sharpe_ratio": 0.5393944098414012,
+                "maximum_drawdown": -0.3449839756815895
+            },
+            "Random Buying": {
+                "profit": 24.66136769420028,
+                "final_capital": 124.66136769420028,
+                "number_of_trades": 216,
+                "sharpe_ratio": 0.9102561693736365,
+                "maximum_drawdown": -0.2995577279406517
+            },
+            "Confidence Buying": {
+                "profit": -24.044949725409523,
+                "final_capital": 75.95505027459048,
+                "number_of_trades": 65,
+                "sharpe_ratio": -1.3159365344876892,
+                "maximum_drawdown": -0.2938914204413938
+            }
+        }
+    },
+    {
+        "model": "Sequential",
+        "problem type": "classification",
+        "experiment": "microsoft test",
+        "stock": "MSFT",
+        "accuracy": 0.5445783132530121,
+        "precision": 0.5426829268292683,
+        "recall": 0.8202764976958525,
+        "f1": 0.653211009174312,
+        "backtest_results": {
+            "Simple Buying": {
+                "profit": 30.98682413032779,
+                "final_capital": 130.9868241303278,
+                "number_of_trades": 328,
+                "sharpe_ratio": 0.6907328715017292,
+                "maximum_drawdown": -0.24154770374976986
+            },
+            "Buy and Hold": {
+                "profit": 22.86164996052392,
+                "final_capital": 122.86164996052392,
+                "sharpe_ratio": 0.5393944098414012,
+                "maximum_drawdown": -0.3449839756815895
+            },
+            "Random Buying": {
+                "profit": 25.92320758454227,
+                "final_capital": 125.92320758454227,
+                "number_of_trades": 194,
+                "sharpe_ratio": 1.252478656880134,
+                "maximum_drawdown": -0.112676986366212
+            },
+            "Confidence Buying": {
+                "profit": 8.718722511649347,
+                "final_capital": 108.71872251164935,
+                "number_of_trades": 42,
+                "sharpe_ratio": 0.5284832662494203,
+                "maximum_drawdown": -0.08372976588711485
+            }
+        }
+    },
+    {
+        "model": "Sequential",
+        "problem type": "regression",
+        "experiment": "microsoft test",
+        "stock": "MSFT",
+        "mean absolute error": 0.015509172973554178,
+        "root mean square error": 0.023916983383548154,
+        "r2": -0.5721310819689773,
+        "directional accuracy": 0.5349397590361445,
+        "backtest_results": {
+            "Simple Buying": {
+                "profit": 33.55482511292905,
+                "final_capital": 133.55482511292905,
+                "number_of_trades": 256,
+                "sharpe_ratio": 0.8244046057745372,
+                "maximum_drawdown": -0.2646279299003803
+            },
+            "Buy and Hold": {
+                "profit": 22.86164996052392,
+                "final_capital": 122.86164996052392,
+                "sharpe_ratio": 0.5393944098414012,
+                "maximum_drawdown": -0.3449839756815895
+            },
+            "Random Buying": {
+                "profit": -9.639649322338656,
+                "final_capital": 90.36035067766134,
+                "number_of_trades": 200,
+                "sharpe_ratio": -0.2808938860221016,
+                "maximum_drawdown": -0.3702766222533323
+            },
+            "Threshold Buying": {
+                "profit": 0.8258750310831573,
+                "final_capital": 100.82587503108316,
+                "number_of_trades": 7,
+                "sharpe_ratio": 0.17935860743447968,
+                "maximum_drawdown": -0.026933586830274758
+            }
+        }
+    }
+]
